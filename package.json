@@ -10,11 +10,13 @@
     "test": "node ./src/wechaty/testMessage.js",
     "test-openai": "node ./src/openai/__test__.js",
     "test-xunfei": "node ./src/xunfei/__test__.js",
-    "test-kimi": "node ./src/kimi/__test__.js"
+    "test-kimi": "node ./src/kimi/__test__.js",
+    "test-claude": "node ./src/claude/__test__.js"
   },
   "author": "rongding",
   "license": "ISC",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.8",
     "axios": "^1.6.8",
     "chatgpt": "^2.5.2",
     "crypto-js": "^4.2.0",
